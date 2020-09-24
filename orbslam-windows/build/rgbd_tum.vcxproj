@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2F4F92F-5923-3285-AFD3-A497113C4CBD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>rgbd_tum</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\test_ORB_SLAM\orbslam-windows\Examples\RGB-D\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rgbd_tum.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rgbd_tum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\test_ORB_SLAM\orbslam-windows\Examples\RGB-D\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rgbd_tum.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rgbd_tum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\test_ORB_SLAM\orbslam-windows\Examples\RGB-D\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">rgbd_tum.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">rgbd_tum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\test_ORB_SLAM\orbslam-windows\Examples\RGB-D\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rgbd_tum.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rgbd_tum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\ORB_SLAM2.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;D:\opencv\build\x64\vc15\lib\opencv_world440d.lib;..\Thirdparty\Pangolin\build\src\Debug\pangolin.lib;opengl32.lib;glu32.lib;..\Thirdparty\Pangolin\build\external\glew\lib\glewd.lib;C:\Program Files\OpenNI2\lib\OpenNI2.lib;..\Thirdparty\Pangolin\build\external\libpng\lib\libpng16_staticd.lib;..\Thirdparty\Pangolin\build\external\zlib\lib\zlibstaticd.lib;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test_ORB_SLAM/orbslam-windows/build/Debug/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test_ORB_SLAM/orbslam-windows/Examples/RGB-D/Debug/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\ORB_SLAM2.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;..\Thirdparty\Pangolin\build\src\Release\pangolin.lib;opengl32.lib;glu32.lib;..\Thirdparty\Pangolin\build\external\glew\lib\glew.lib;C:\Program Files\OpenNI2\lib\OpenNI2.lib;..\Thirdparty\Pangolin\build\external\libpng\lib\libpng16_static.lib;..\Thirdparty\Pangolin\build\external\zlib\lib\zlibstatic.lib;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test_ORB_SLAM/orbslam-windows/build/Release/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test_ORB_SLAM/orbslam-windows/Examples/RGB-D/Release/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\ORB_SLAM2.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;..\Thirdparty\Pangolin\build\src\MinSizeRel\pangolin.lib;opengl32.lib;glu32.lib;_glew-NOTFOUND;C:\Program Files\OpenNI2\lib\OpenNI2.lib;_libpng-NOTFOUND;_zlib-NOTFOUND;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test_ORB_SLAM/orbslam-windows/build/MinSizeRel/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test_ORB_SLAM/orbslam-windows/Examples/RGB-D/MinSizeRel/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows;D:\test_ORB_SLAM\orbslam-windows\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\include;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\external\glew\include;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\ORB_SLAM2.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;D:\opencv\build\x64\vc15\lib\opencv_world440.lib;..\Thirdparty\Pangolin\build\src\RelWithDebInfo\pangolin.lib;opengl32.lib;glu32.lib;_glew-NOTFOUND;C:\Program Files\OpenNI2\lib\OpenNI2.lib;_libpng-NOTFOUND;_zlib-NOTFOUND;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test_ORB_SLAM/orbslam-windows/build/RelWithDebInfo/rgbd_tum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test_ORB_SLAM/orbslam-windows/Examples/RGB-D/RelWithDebInfo/rgbd_tum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\test_ORB_SLAM\orbslam-windows\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/test_ORB_SLAM/orbslam-windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/test_ORB_SLAM/orbslam-windows -BD:/test_ORB_SLAM/orbslam-windows/build --check-stamp-file D:/test_ORB_SLAM/orbslam-windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\opencv\build\OpenCVConfig-version.cmake;D:\opencv\build\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\test_ORB_SLAM\orbslam-windows\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/test_ORB_SLAM/orbslam-windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/test_ORB_SLAM/orbslam-windows -BD:/test_ORB_SLAM/orbslam-windows/build --check-stamp-file D:/test_ORB_SLAM/orbslam-windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\opencv\build\OpenCVConfig-version.cmake;D:\opencv\build\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\test_ORB_SLAM\orbslam-windows\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/test_ORB_SLAM/orbslam-windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/test_ORB_SLAM/orbslam-windows -BD:/test_ORB_SLAM/orbslam-windows/build --check-stamp-file D:/test_ORB_SLAM/orbslam-windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\opencv\build\OpenCVConfig-version.cmake;D:\opencv\build\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\test_ORB_SLAM\orbslam-windows\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/test_ORB_SLAM/orbslam-windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/test_ORB_SLAM/orbslam-windows -BD:/test_ORB_SLAM/orbslam-windows/build --check-stamp-file D:/test_ORB_SLAM/orbslam-windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\opencv\build\OpenCVConfig-version.cmake;D:\opencv\build\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\test_ORB_SLAM\orbslam-windows\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\Examples\RGB-D\rgbd_tum.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\test_ORB_SLAM\orbslam-windows\build\ZERO_CHECK.vcxproj">
+      <Project>{69EA103F-A631-3E5A-BFC9-3EBDC8F976E3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\test_ORB_SLAM\orbslam-windows\build\ORB_SLAM2.vcxproj">
+      <Project>{D5647948-E360-3C18-ADD9-53BB21362D23}</Project>
+      <Name>ORB_SLAM2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

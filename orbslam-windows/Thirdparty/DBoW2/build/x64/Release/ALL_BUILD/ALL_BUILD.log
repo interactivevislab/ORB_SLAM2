@@ -1,0 +1,46 @@
+﻿  Building Custom Rule D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/CMakeLists.txt
+  CMake is re-running because D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/opencv/build/OpenCVConfig-version.cmake'
+    is newer than 'D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/generate.stamp.depend'
+    result='0'
+  CMake Warning at CMakeLists.txt:27 (find_package):
+    By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has
+    asked CMake to find a package configuration file provided by "OpenCV", but
+    CMake did not find one.
+  
+    Could not find a package configuration file provided by "OpenCV" with any
+    of the following names:
+  
+      OpenCVConfig.cmake
+      opencv-config.cmake
+  
+    Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+    "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+    provides a separate development package or SDK, be sure it has been
+    installed.
+  
+  
+  CMake Warning at CMakeLists.txt:29 (find_package):
+    By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has
+    asked CMake to find a package configuration file provided by "OpenCV", but
+    CMake did not find one.
+  
+    Could not find a package configuration file provided by "OpenCV" with any
+    of the following names:
+  
+      OpenCVConfig.cmake
+      opencv-config.cmake
+  
+    Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+    "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+    provides a separate development package or SDK, be sure it has been
+    installed.
+  
+  
+  CMake Error at CMakeLists.txt:31 (message):
+    OpenCV >not found.
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/CMakeOutput.log".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(231,5): error MSB6006: "cmd.exe" exited with code 1.

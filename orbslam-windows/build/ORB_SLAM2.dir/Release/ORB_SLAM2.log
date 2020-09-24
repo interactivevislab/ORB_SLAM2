@@ -1,0 +1,39 @@
+﻿  System.cc
+  Tracking.cc
+  LocalMapping.cc
+  LoopClosing.cc
+  ORBextractor.cc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\utility(207,1): warning C4267: 'initializing': conversion from 'size_t' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=int
+          ]
+D:\test_ORB_SLAM\orbslam-windows\src\ORBextractor.cc(627): message : see reference to function template instantiation 'std::pair<int,ORB_SLAM2::ExtractorNode *>::pair<unsigned __int64,ORB_SLAM2::ExtractorNode*,0>(std::pair<unsigned __int64,ORB_SLAM2::ExtractorNode *> &&) noexcept' being compiled
+D:\test_ORB_SLAM\orbslam-windows\src\ORBextractor.cc(627): message : see reference to function template instantiation 'std::pair<int,ORB_SLAM2::ExtractorNode *>::pair<unsigned __int64,ORB_SLAM2::ExtractorNode*,0>(std::pair<unsigned __int64,ORB_SLAM2::ExtractorNode *> &&) noexcept' being compiled
+  ORBmatcher.cc
+  FrameDrawer.cc
+  Converter.cc
+  MapPoint.cc
+  KeyFrame.cc
+  Map.cc
+  MapDrawer.cc
+  Optimizer.cc
+  PnPsolver.cc
+  Frame.cc
+  KeyFrameDatabase.cc
+  Sim3Solver.cc
+  Initializer.cc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\utility(207,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+D:\test_ORB_SLAM\orbslam-windows\src\Initializer.cc(59): message : see reference to function template instantiation 'std::pair<int,int>::pair<unsigned __int64,int,0>(std::pair<unsigned __int64,int> &&) noexcept' being compiled
+D:\test_ORB_SLAM\orbslam-windows\src\Initializer.cc(59): message : see reference to function template instantiation 'std::pair<int,int>::pair<unsigned __int64,int,0>(std::pair<unsigned __int64,int> &&) noexcept' being compiled
+  Viewer.cc
+  Generating Code...
+  ORB_SLAM2.vcxproj -> D:\test_ORB_SLAM\orbslam-windows\build\Release\ORB_SLAM2.lib

@@ -1,0 +1,27 @@
+﻿  mono_webcam.cc
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\unordered_map(777): message : see declaration of 'std::tr1'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): error C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\unordered_map(777): message : see declaration of 'std::tr1'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\base_vertex.h(62,1): error C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src\Core\util\Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_sba.h(41): message : see reference to class template instantiation 'g2o::BaseVertex<3,Eigen::Vector3d>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(632): message : see reference to class template instantiation 'std::chrono::duration<double,std::ratio<1,1>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(178): message : see reference to class template instantiation 'std::chrono::duration<__int64,std::nano>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(610): message : see reference to class template instantiation 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' being compiled
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\base_binary_edge.h(59,1): error C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src\Core\util\Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(80): message : see reference to class template instantiation 'g2o::BaseBinaryEdge<2,Eigen::Vector2d,g2o::VertexSBAPointXYZ,g2o::VertexSE3Expmap>' being compiled
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\base_binary_edge.h(60,1): error C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src\Core\util\Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(126,67): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\DBoW2\DUtils\Random.h(155,36): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\include\ORBextractor.h(67,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\opencv\build\include\opencv2\flann\saving.h(92,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+D:\opencv\build\include\opencv2\flann\saving.h(94,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+D:\test_ORB_SLAM\orbslam-windows\include\LocalMapping.h(72,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\base_vertex.h(99,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\base_vertex.h(99): message : while compiling class template member function 'int g2o::BaseVertex<7,g2o::Sim3>::stackSize(void) const'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_seven_dof_expmap.h(49): message : see reference to class template instantiation 'g2o::BaseVertex<7,g2o::Sim3>' being compiled
