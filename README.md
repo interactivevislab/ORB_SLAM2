@@ -1,5 +1,5 @@
 # ORB_SLAM 
-implementation from VIZlab itmo
+implementation from VISlab itmo
 
 1.save and load map the feature points
 2.connected Alttracker (Antilatency) 
