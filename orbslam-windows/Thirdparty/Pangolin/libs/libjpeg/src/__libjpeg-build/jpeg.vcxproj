@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A4F422A-974E-38C1-B44E-B3CE3C3AEB80}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>jpeg</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">jpeg.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">jpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">jpeg.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">jpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">jpeg.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">jpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">jpeg.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">jpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg -BF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build --check-stamp-file F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeSystem.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cmake\dist.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg -BF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build --check-stamp-file F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeSystem.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cmake\dist.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg -BF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build --check-stamp-file F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeSystem.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cmake\dist.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg -BF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build --check-stamp-file F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.18.3\CMakeSystem.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cmake\dist.cmake;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemnobs.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jaricom.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcapimin.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcapistd.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcarith.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jccoefct.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jccolor.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcdctmgr.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jchuff.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcinit.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmainct.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmarker.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmaster.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcomapi.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcparam.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcprepct.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcsample.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jctrans.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdapimin.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdapistd.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdarith.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatadst.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatasrc.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdcoefct.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdcolor.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jddctmgr.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdhuff.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdinput.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmainct.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmarker.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmaster.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmerge.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdpostct.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdsample.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdtrans.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jerror.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctflt.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctfst.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctint.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctflt.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctfst.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctint.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jquant1.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jquant2.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jutils.c" />
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cderror.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cdjpeg.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdct.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jinclude.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemsys.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jpegint.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jversion.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\transupp.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jerror.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmorecfg.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jpeglib.h" />
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jconfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ZERO_CHECK.vcxproj">
+      <Project>{83BA3248-2A3D-33FD-A871-03A41C3BC058}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

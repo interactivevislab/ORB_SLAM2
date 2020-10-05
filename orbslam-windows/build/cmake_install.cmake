@@ -1,4 +1,4 @@
-# Install script for directory: D:/test_ORB_SLAM/orbslam-windows
+# Install script for directory: F:/laba_work/v2/ORB_SLAM2/orbslam-windows
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/test_ORB_SLAM/orbslam-windows/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/laba_work/v2/ORB_SLAM2/orbslam-windows/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

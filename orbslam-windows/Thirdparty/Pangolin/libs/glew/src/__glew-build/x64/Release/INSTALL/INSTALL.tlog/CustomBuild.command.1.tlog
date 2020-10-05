@@ -1,0 +1,10 @@
+^F:\LABA_WORK\V2\ORB_SLAM2\ORBSLAM-WINDOWS\THIRDPARTY\PANGOLIN\BUILD\EXTERNAL\GLEW\SRC\__GLEW-BUILD\CMAKEFILES\36CE455EE25DE2D191E11D5E10994E4B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

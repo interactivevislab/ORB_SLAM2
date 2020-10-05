@@ -1,0 +1,10 @@
+^F:\LABA_WORK\V2\ORB_SLAM2\ORBSLAM-WINDOWS\THIRDPARTY\PANGOLIN\BUILD\EXTERNAL\ZLIB\SRC\__ZLIB-BUILD\CMAKEFILES\5901E0B39FE30911B23B387930DF9A81\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib -BF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/zlib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

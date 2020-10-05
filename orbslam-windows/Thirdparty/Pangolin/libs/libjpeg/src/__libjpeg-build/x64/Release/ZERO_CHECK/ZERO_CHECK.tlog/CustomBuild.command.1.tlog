@@ -1,0 +1,10 @@
+^F:\LABA_WORK\V2\ORB_SLAM2\ORBSLAM-WINDOWS\THIRDPARTY\PANGOLIN\BUILD\EXTERNAL\LIBJPEG\SRC\__LIBJPEG-BUILD\CMAKEFILES\C6C077E6A9B052D114E557CB282E5896\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg -BF:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/libjpeg.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

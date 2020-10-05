@@ -1,0 +1,10 @@
+^F:\LABA_WORK\V2\ORB_SLAM2\ORBSLAM-WINDOWS\THIRDPARTY\PANGOLIN\BUILD\EXTERNAL\ZLIB\SRC\__ZLIB-BUILD\CMAKEFILES\5901E0B39FE30911B23B387930DF9A81\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

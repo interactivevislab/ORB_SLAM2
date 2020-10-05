@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\test_ORB_SLAM\orbslam-windows\build\CMakeFiles\a255fc171a033a110b091a0cf8e75e9d\generate.stamp.rule">
+    <CustomBuild Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\build\CMakeFiles\d63ae459142f070e4a4e1b143e57bd74\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{AFDAB408-DF55-3835-A560-31A469F33057}</UniqueIdentifier>
+      <UniqueIdentifier>{A0758414-4236-398B-B070-CFA509CA90F2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

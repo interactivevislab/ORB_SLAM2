@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngget.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngpread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pnglibconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pnginfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngpriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6775C2F7-8C25-328F-B594-0A4F2A80ABAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09D56114-5F69-34B5-A407-8085E180E65C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

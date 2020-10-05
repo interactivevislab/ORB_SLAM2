@@ -1,70 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\System.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\System.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Tracking.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Tracking.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\LocalMapping.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\LocalMapping.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\LoopClosing.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\LoopClosing.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\ORBextractor.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\ORBextractor.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\ORBmatcher.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\ORBmatcher.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\FrameDrawer.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\FrameDrawer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Converter.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Converter.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\MapPoint.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\MapPoint.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\KeyFrame.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\KeyFrame.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Map.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Map.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\MapDrawer.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\MapDrawer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Optimizer.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Optimizer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\PnPsolver.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\PnPsolver.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Frame.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Frame.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\KeyFrameDatabase.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\KeyFrameDatabase.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Sim3Solver.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Sim3Solver.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Initializer.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Initializer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\test_ORB_SLAM\orbslam-windows\src\Viewer.cc">
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\src\Viewer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\test_ORB_SLAM\orbslam-windows\CMakeLists.txt" />
+    <CustomBuild Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1A43824B-B07C-3957-BD9D-EB4435988CA0}</UniqueIdentifier>
+      <UniqueIdentifier>{1FB7AFD7-87CA-35E4-A1D5-5593B9CEBC6B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

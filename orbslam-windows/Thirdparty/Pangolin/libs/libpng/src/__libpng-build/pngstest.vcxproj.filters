@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\contrib\libtests\pngstest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09D56114-5F69-34B5-A407-8085E180E65C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

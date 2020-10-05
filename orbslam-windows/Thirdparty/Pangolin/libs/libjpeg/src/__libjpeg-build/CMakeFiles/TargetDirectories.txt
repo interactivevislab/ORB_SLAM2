@@ -1,0 +1,11 @@
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/PACKAGE.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/rdjpgcom.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/jpeg.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/RUN_TESTS.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/wrjpgcom.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/cjpeg.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/djpeg.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/jpegtran.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/INSTALL.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/ALL_BUILD.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/ZERO_CHECK.dir

@@ -7,7 +7,6 @@ ENDIF()
 
 MESSAGE("Build type: " ${CMAKE_BUILD_TYPE})
 
-SET (OpenCV_DIR C:/opencv/build)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -W0 -MT -bigobj")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -W0 -MT -bigobj")
 
@@ -31,23 +30,19 @@ endif()
 
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
-find_package(OpenCV REQUIRED PATHS "D:/opencv/build")
-if(NOT OpenCV_FOUND)
-   find_package(OpenCV)
-   if(NOT OpenCV_FOUND)
-      message(FATAL_ERROR "OpenCV > 2.4.3 not found.")
-   endif()
-endif()
 
-find_package(Eigen3 3.1.0 REQUIRED)
-find_package(Pangolin REQUIRED)
 
 include_directories(
 ${PROJECT_SOURCE_DIR}
 ${PROJECT_SOURCE_DIR}/include
-${EIGEN3_INCLUDE_DIR}
-${Pangolin_INCLUDE_DIRS}
+Thirdparty/opencv/build/include
+Thirdparty/eigen
+Thirdparty/Pangolin/include
+Thirdparty/Pangolin/libs/glew/include
+Thirdparty/boost_1_73_0
 )
+
+find_package(Pangolin REQUIRED PATHS "Thirdparty/Pangolin/src")
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 
@@ -74,14 +69,23 @@ src/Viewer.cc
 )
 
 target_link_libraries(${PROJECT_NAME}
-${OpenCV_LIBS}
-${EIGEN3_LIBS}
-${Pangolin_LIBRARIES}
-${PROJECT_SOURCE_DIR}/Thirdparty/DBoW2/lib/Release/DBoW2.lib
-${PROJECT_SOURCE_DIR}/Thirdparty/g2o/build/Release/g2o.lib
+
+../Thirdparty/opencv/build/x64/vc15/lib/opencv_world440
+../Thirdparty/DBoW2/lib/Release/DBoW2
+../Thirdparty/g2o/libs/Release/g2o
+../Thirdparty/Pangolin/libs/Release/pangolin
+opengl32.lib
+glu32.lib
+../Thirdparty/Pangolin/libs/glew/lib/glew
+../Thirdparty/OpenNI2/lib/OpenNI2
+../Thirdparty/Pangolin/libs/libpng/lib/libpng16_static
+../Thirdparty/Pangolin/libs/zlib/lib/zlibstatic
+../Thirdparty/Pangolin/libs/libjpeg/lib/jpeg
+../Thirdparty/boost_1_73_0/stage/lib/libboost_serialization-vc142-mt-s-x64-1_73
 )
 
 # Build examples
+
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/RGB-D)
 

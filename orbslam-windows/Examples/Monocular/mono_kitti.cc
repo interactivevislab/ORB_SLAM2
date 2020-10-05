@@ -26,24 +26,25 @@
 #include<chrono>
 #include <Converter.h>
 #include<opencv2/core/core.hpp>
-#include <Antilatency.InterfaceContract.LibraryLoader.h>
-#include <Antilatency.DeviceNetwork.h>
-#include <Antilatency.StorageClient.h>
-#include <Antilatency.Alt.Tracking.h>
+//#include <Antilatency.InterfaceContract.LibraryLoader.h>
+//#include <Antilatency.DeviceNetwork.h>
+//#include <Antilatency.StorageClient.h>
+//#include <Antilatency.Alt.Tracking.h>
 #include <opencv2/core/eigen.hpp>
 #include<System.h>
 
 #include<time.h>
 
 
-Antilatency::DeviceNetwork::INetwork deviceNetwork;
-Antilatency::Alt::Tracking::ILibrary altTrackingLibrary;
-Antilatency::Alt::Tracking::ITrackingCotask trackingCotask;
-Antilatency::Alt::Tracking::IEnvironment environment;
-Antilatency::Math::floatP3Q placement;
+//Antilatency::DeviceNetwork::INetwork deviceNetwork;
+//Antilatency::Alt::Tracking::ILibrary altTrackingLibrary;
+//Antilatency::Alt::Tracking::ITrackingCotask trackingCotask;
+//Antilatency::Alt::Tracking::IEnvironment environment;
+//Antilatency::Math::floatP3Q placement;
 
 bool exitRequested = false;
 
+/*
 BOOL WINAPI consoleHandler(DWORD signal)
 {
 	if (signal == CTRL_C_EVENT)
@@ -199,7 +200,7 @@ bool altInit(uint32_t& updateId, Antilatency::DeviceNetwork::NodeHandle& trackin
 
 
 }
-
+*/
 #define PORT     8080
 #define BUFSIZE 1024
 using namespace std;

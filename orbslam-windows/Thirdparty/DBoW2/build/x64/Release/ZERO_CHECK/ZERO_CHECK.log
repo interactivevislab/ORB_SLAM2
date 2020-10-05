@@ -1,8 +1,0 @@
-﻿  Checking Build System
-  CMake is re-running because D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/generate.stamp is out-of-date.
-    the file 'D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/CMakeLists.txt'
-    is newer than 'D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/generate.stamp.depend'
-    result='-1'
-  -- Configuring done
-  -- Generating done
-  -- Build files have been written to: D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build

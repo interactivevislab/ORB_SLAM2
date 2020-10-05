@@ -1,0 +1,9 @@
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/png16.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/png16_static.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/INSTALL.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/RUN_TESTS.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/pngtest.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/pngvalid.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/pngstest.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/ALL_BUILD.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/ZERO_CHECK.dir

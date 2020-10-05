@@ -1,6 +1,6 @@
-^D:\TEST_ORB_SLAM\ORBSLAM-WINDOWS\BUILD\CMAKEFILES\A255FC171A033A110B091A0CF8E75E9D\GENERATE.STAMP.RULE
+^F:\LABA_WORK\V2\ORB_SLAM2\ORBSLAM-WINDOWS\BUILD\CMAKEFILES\D63AE459142F070E4A4E1B143E57BD74\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/test_ORB_SLAM/orbslam-windows -BD:/test_ORB_SLAM/orbslam-windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/test_ORB_SLAM/orbslam-windows/build/ORB_SLAM2.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/laba_work/v2/ORB_SLAM2/orbslam-windows -BF:/laba_work/v2/ORB_SLAM2/orbslam-windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/laba_work/v2/ORB_SLAM2/orbslam-windows/build/ORB_SLAM2.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

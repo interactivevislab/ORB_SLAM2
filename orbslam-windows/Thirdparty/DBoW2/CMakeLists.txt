@@ -24,7 +24,7 @@ set(SRCS_DUTILS
   DUtils/Random.cpp
   DUtils/Timestamp.cpp)
 
-#find_package(OpenCV)
+find_package(OpenCV REQUIRED PATHS "../opencv/build")
 #if(NOT OpenCV_FOUND)
  #  find_package(OpenCV)
   # if(NOT OpenCV_FOUND)

@@ -1,3 +1,0 @@
-D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir
-D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/ALL_BUILD.dir
-D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/CMakeFiles/ZERO_CHECK.dir

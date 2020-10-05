@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\CMakeFiles\952fc564a7c953f368487bc91e806fe5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9DEB96F4-8111-3F4D-9038-ECB0B8A68DAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/zlib.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/zlibstatic.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/example.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/minigzip.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/INSTALL.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/RUN_TESTS.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/ALL_BUILD.dir
+F:/laba_work/v2/ORB_SLAM2/orbslam-windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/ZERO_CHECK.dir

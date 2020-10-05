@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\x64\Release\ZERO_CHECK;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Release\glewinfo.exe;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Release\glew.dll;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Release\visualinfo.exe;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\x64\Release\ALL_BUILD;F:\laba_work\v2\ORB_SLAM2\orbslam-windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\x64\Release\INSTALL</ProjectOutputs>
+  <ContentFiles></ContentFiles>
+  <SatelliteDlls></SatelliteDlls>
+  <NonRecipeFileRefs></NonRecipeFileRefs>
+</Project>
