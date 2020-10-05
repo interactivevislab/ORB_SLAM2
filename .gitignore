@@ -6,10 +6,9 @@
 #data set files
 orbslam-windows/Examples/Monocular/Release/mapRoom2.bin
 orbslam-windows/Examples/Monocular/ORBvoc.txt
-orbslam-windows/data_set/
+orbslam-windows/data_set/*
 orbslam-windows/Examples/Monocular/Release/mapRoom1.bin
-orbslam_windows/build/.vs
-orbslam_windows/build/
+orbslam-windows/build/*
 
 
 # User-specific files
