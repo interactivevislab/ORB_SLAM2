@@ -5,6 +5,8 @@ IF(NOT CMAKE_BUILD_TYPE)
   SET(CMAKE_BUILD_TYPE Release)
 ENDIF()
 
+option(MD_timeLibrary "Build with use MD_timeLibrary" OFF)
+
 MESSAGE("Build type: " ${CMAKE_BUILD_TYPE})
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -W0 -MT -bigobj")
@@ -33,15 +35,14 @@ LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
 
 include_directories(
-${PROJECT_SOURCE_DIR}
-${PROJECT_SOURCE_DIR}/include
-Thirdparty/opencv/build/include
-Thirdparty/eigen
-Thirdparty/Pangolin/include
-Thirdparty/Pangolin/libs/glew/include
-Thirdparty/boost_1_73_0
+	${PROJECT_SOURCE_DIR}
+	${PROJECT_SOURCE_DIR}/include
+	Thirdparty/opencv/build/include
+	Thirdparty/eigen
+	Thirdparty/Pangolin/include
+	Thirdparty/Pangolin/libs/glew/include
+	Thirdparty/boost_1_73_0
 )
-
 find_package(Pangolin REQUIRED PATHS "Thirdparty/Pangolin/src")
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
@@ -68,8 +69,25 @@ src/Initializer.cc
 src/Viewer.cc
 )
 
+if(MD_timeLibrary)
+ message( "MD ON!!!!!!!!!!!!!!!!!!!!")
 target_link_libraries(${PROJECT_NAME}
-
+../Thirdparty/opencv/build/x64/vc15/lib/opencv_world440
+../Thirdparty/DBoW2/lib/Release/MD/DBoW2
+../Thirdparty/g2o/libs/Release/MD/g2o
+../Thirdparty/Pangolin/libs/Release/MD/pangolin
+opengl32.lib
+glu32.lib
+../Thirdparty/Pangolin/libs/glew/lib/glew
+../Thirdparty/OpenNI2/lib/OpenNI2
+../Thirdparty/Pangolin/libs/libpng/lib/libpng16_static
+../Thirdparty/Pangolin/libs/zlib/lib/zlibstatic
+../Thirdparty/Pangolin/libs/libjpeg/lib/jpeg
+../Thirdparty/boost_1_73_0/stage/lib/libboost_serialization-vc142-mt-x64-1_73
+)
+else()
+message( "MD off!!!!!!!!!!!!!!!!!!!!")
+target_link_libraries(${PROJECT_NAME}
 ../Thirdparty/opencv/build/x64/vc15/lib/opencv_world440
 ../Thirdparty/DBoW2/lib/Release/DBoW2
 ../Thirdparty/g2o/libs/Release/g2o
@@ -83,7 +101,7 @@ glu32.lib
 ../Thirdparty/Pangolin/libs/libjpeg/lib/jpeg
 ../Thirdparty/boost_1_73_0/stage/lib/libboost_serialization-vc142-mt-s-x64-1_73
 )
-
+endif()
 # Build examples
 
 
