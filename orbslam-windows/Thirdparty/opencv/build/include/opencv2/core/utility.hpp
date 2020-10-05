@@ -50,7 +50,7 @@
 #endif
 
 #if defined(check)
-#  warning Detected Apple 'check' macro definition, it can cause build conflicts. Please, include this header before any Apple headers.
+#pragma message( "Detected Apple 'check' macro definition, it can cause build conflicts. Please, include this header before any Apple headers.")
 #endif
 
 #include "opencv2/core.hpp"

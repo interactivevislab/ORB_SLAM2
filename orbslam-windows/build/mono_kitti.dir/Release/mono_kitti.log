@@ -1,2 +1,3 @@
-﻿     Creating library D:/test_ORB_SLAM/orbslam-windows/build/Release/mono_kitti.lib and object D:/test_ORB_SLAM/orbslam-windows/build/Release/mono_kitti.exp
+﻿  mono_kitti.cc
+     Creating library D:/test_ORB_SLAM/orbslam-windows/build/Release/mono_kitti.lib and object D:/test_ORB_SLAM/orbslam-windows/build/Release/mono_kitti.exp
   mono_kitti.vcxproj -> D:\test_ORB_SLAM\orbslam-windows\Examples\Monocular\Release\mono_kitti.exe

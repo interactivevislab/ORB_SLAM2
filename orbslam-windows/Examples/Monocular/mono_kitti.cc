@@ -30,7 +30,7 @@
 #include <Antilatency.DeviceNetwork.h>
 #include <Antilatency.StorageClient.h>
 #include <Antilatency.Alt.Tracking.h>
-
+#include <opencv2/core/eigen.hpp>
 #include<System.h>
 
 #include<time.h>
@@ -285,6 +285,7 @@ void UDPSend(string message)
 	//Prompt to type an IP of server
 	//cout << "IP adress of server : ";
 	string ipAdress="172.16.119.227";
+	string ipAdressMy = "172.16.119.64";
 	//getline(cin, ipAdress);
 
 	//Fill in server and client structures
@@ -294,7 +295,7 @@ void UDPSend(string message)
 	ZeroMemory(&server_addr, server_len);
 	server_addr.sin_family = AF_INET;
 	server_addr.sin_port = htons(PORT);
-	inet_pton(AF_INET, ipAdress.c_str(), &server_addr.sin_addr);
+	inet_pton(AF_INET, ipAdressMy.c_str(), &server_addr.sin_addr);
 
 	int client_len = sizeof(client_addr);
 	ZeroMemory(&client_addr, client_len);
@@ -332,6 +333,90 @@ void UDPSend(string message)
 	return;
 
 }
+
+Eigen::Vector4d hamiltonProduct(Eigen::Vector4d a, Eigen::Vector4d b)
+{
+
+	Eigen::Vector4d  c;
+
+	c[0] = (a[0] * b[0]) - (a[1] * b[1]) - (a[2] * b[2]) - (a[3] * b[3]);
+	c[1] = (a[0] * b[1]) + (a[1] * b[0]) + (a[2] * b[3]) - (a[3] * b[2]);
+	c[2] = (a[0] * b[2]) - (a[1] * b[3]) + (a[2] * b[0]) + (a[3] * b[1]);
+	c[3] = (a[0] * b[3]) + (a[1] * b[2]) - (a[2] * b[1]) + (a[3] * b[0]);
+
+	return c;
+}
+
+std::vector<float> GrabTranformCamera(cv::Mat Poses, Eigen::Vector3d& translation)
+{
+	vector<float> null;
+	if (Poses.empty())
+		return null;
+
+	Eigen::Matrix3d tf3d;
+	tf3d(0, 0) = Poses.at<float>(0,0);
+	tf3d(0, 1) = Poses.at<float>(0, 1);
+	tf3d(0, 2) = Poses.at<float>(0, 2);
+
+	tf3d(1, 0) = Poses.at<float>(1, 0);
+	tf3d(1, 1) = Poses.at<float>(1,1);
+	tf3d(1, 2) = Poses.at<float>(1, 2);
+
+	tf3d(2, 0) = Poses.at<float>(2, 0);
+	tf3d(2, 1) = Poses.at<float>(2, 1);
+	tf3d(2, 2) = Poses.at<float>(2, 2);
+
+	cv::Mat cv_tf3d;
+
+	cv::eigen2cv(tf3d, cv_tf3d);
+	vector<float> tfqt=ORB_SLAM2::Converter::toQuaternion(cv_tf3d);
+	double aux = tfqt[0];
+	tfqt[0] = -tfqt[2];
+	tfqt[2] = tfqt[1];
+	tfqt[1] = aux;
+
+	Eigen::Vector3d origin(Poses.at<float>(0, 3), Poses.at<float>(1, 3), Poses.at<float>(2, 3));
+	
+	Eigen::Matrix3d rotate270degXZ;
+	
+	rotate270degXZ(0, 0) = 0;
+	rotate270degXZ(0, 1) = 1;
+	rotate270degXZ(0, 2) = 0;
+
+	rotate270degXZ(1, 0) = 0;
+	rotate270degXZ(1, 1) = 0;
+	rotate270degXZ(1, 2) = 1;
+
+	rotate270degXZ(2, 0) = -1;
+	rotate270degXZ(2, 1) = 0;
+	rotate270degXZ(2, 2) = 0;
+
+	
+	
+	
+	
+	auto translationForCamera = origin.transpose() * rotate270degXZ;
+	
+	
+	Eigen::Vector4d quaternionForHamilton(tfqt[3], tfqt[0], tfqt[1], tfqt[2]);
+	Eigen::Vector4d secondQuaternionForHamilton(tfqt[3], -tfqt[0], -tfqt[1], -tfqt[2]);
+	Eigen::Vector4d translationHamilton(0, translationForCamera[0], translationForCamera[1], translationForCamera[2]);
+	
+
+	
+	Eigen::Vector4d translationStepQuat;
+	translationStepQuat = hamiltonProduct(hamiltonProduct(quaternionForHamilton, translationHamilton), secondQuaternionForHamilton);
+
+	
+	Eigen::Vector3d _translation(translationStepQuat[1], translationStepQuat[2], translationStepQuat[3]);
+	
+	translation = _translation;
+	
+	return tfqt;
+}
+
+
+
 
 int main(int argc, char** argv)
 {
@@ -465,6 +550,7 @@ int main(int argc, char** argv)
 				Eigen::Vector3d pos = ORB_SLAM2::Converter::toVector3d(twc);
 				 vector<float> q = ORB_SLAM2::Converter::toQuaternion(Rwc);
 				string separ=",";
+				string separCol=";";
 				//auto state = trackingCotask.getState(Antilatency::Alt::Tracking::Constants::DefaultAngularVelocityAvgTime);
 				//alt init pose write to file
 				//if (!InitPose)
@@ -473,35 +559,82 @@ int main(int argc, char** argv)
 					
 					//initPoseAlt << "x: " << state.pose.position.x << ", y: " << state.pose.position.y << ", z: " << state.pose.position.z << ",rot x:" << state.pose.rotation.x << ", rot y: " << state.pose.rotation.y << ", rot z:" << state.pose.rotation.z << std::endl;
 				//}
-				//Eigen::Matrix3f R;
-				//R=Eigen::Quaternionf(0, state.pose.rotation.x, state.pose.rotation.y, state.pose.rotation.z).toRotationMatrix();
+
+				//Eigen::Vector3d translation;
+				
+				//std::vector<float> vectorRot=GrabTranformCamera(Tcw, translation);
+
+				Eigen::Matrix4d transfromMatrix;
+				transfromMatrix(0,0) = Rwc.at<float>(0, 0);
+				transfromMatrix(1, 0) = Rwc.at<float>(1, 0);
+				transfromMatrix(2, 0) = Rwc.at<float>(2, 0);
+				transfromMatrix(3, 0) = 0.0;
+
+				transfromMatrix(0, 1) = Rwc.at<float>(0, 1);
+				transfromMatrix(1, 1) = Rwc.at<float>(1, 1);
+				transfromMatrix(2, 1) = Rwc.at<float>(2, 1);
+				transfromMatrix(3, 1) = 0.0;
+
+				transfromMatrix(0, 2) = Rwc.at<float>(0, 2);
+				transfromMatrix(1, 2) = Rwc.at<float>(1, 2);
+				transfromMatrix(2, 2) = Rwc.at<float>(2, 2);
+				transfromMatrix(3, 2) = 0.0;
+
+				transfromMatrix(0, 3) = twc.at<float>(0);
+				transfromMatrix(1, 3) = twc.at<float>(1);
+				transfromMatrix(2, 3) = twc.at<float>(2);
+				transfromMatrix(3, 3) = 1.0;
 
 
-				//cout << "X:" << pos.x() << "\nY:" << pos.y() << "\nZ:" << pos.z() << "\n\n";
-				//cout << "X:" << rot.x() << "\nY:" << rot.y() << "\nZ:" << rot.z() << "\n\n"; 
-				messageUDP = std::to_string(pos.x());
+
+
+
+				/*Eigen::Vector3d translation;
+				std::cout <<"tranclation" <<translation<<std::endl;
+				std::cout << "rotation" << vectorRot[0] << std::endl;*/
+
+				
+				
+				messageUDP += std::to_string(transfromMatrix(0, 0));
 				messageUDP += separ;
-				messageUDP += std::to_string(pos.y());
+				messageUDP += std::to_string(transfromMatrix(1, 0));
 				messageUDP += separ;
-				messageUDP += std::to_string(pos.z());
+				messageUDP += std::to_string(transfromMatrix(2, 0));
 				messageUDP += separ;
-				messageUDP += std::to_string(q[0]);
+				messageUDP += std::to_string(transfromMatrix(3, 0));
+				messageUDP += separCol;
+				
+				messageUDP += std::to_string(transfromMatrix(0, 1));
 				messageUDP += separ;
-				messageUDP += std::to_string(q[1]);
+				messageUDP += std::to_string(transfromMatrix(1, 1));
 				messageUDP += separ;
-				messageUDP += std::to_string(q[2]);
+				messageUDP += std::to_string(transfromMatrix(2, 1));
 				messageUDP += separ;
-				messageUDP += std::to_string(q[3]);
+				messageUDP += std::to_string(transfromMatrix(3, 1));
+				messageUDP += separCol;
+				
+				messageUDP += std::to_string(transfromMatrix(0, 2));
+				messageUDP += separ;
+				messageUDP += std::to_string(transfromMatrix(1, 2));
+				messageUDP += separ;
+				messageUDP += std::to_string(transfromMatrix(2, 2));
+				messageUDP += separ;
+				messageUDP += std::to_string(transfromMatrix(3, 2));
+				messageUDP += separCol;
+				
+				messageUDP += std::to_string(transfromMatrix(0, 3));
+				messageUDP += separ;
+				messageUDP += std::to_string(transfromMatrix(1, 3));
+				messageUDP += separ;
+				messageUDP += std::to_string(transfromMatrix(2, 3));
+				messageUDP += separ;
+				messageUDP += std::to_string(transfromMatrix(3, 3));
+				messageUDP += separCol;
+
 				UDPSend(messageUDP);
 
 
-				//std::ostringstream stream;
-				//stream << "imgs/" << Rwc.at<float>(0, 0) << " " << Rwc.at<float>(0, 1) << " " << Rwc.at<float>(0, 2) << " " << twc.at<float>(0) << " " <<
-				//	Rwc.at<float>(1, 0) << " " << Rwc.at<float>(1, 1) << " " << Rwc.at<float>(1, 2) << " " << twc.at<float>(1) << " " <<
-					//Rwc.at<float>(2, 0) << " " << Rwc.at<float>(2, 1) << " " << Rwc.at<float>(2, 2) << " " << twc.at<float>(2) << ".jpg";
-				//stream << "imgs/" << curNow << ".jpg";
-				//string fileName = stream.str();
-				//cv::imwrite(fileName, im);
+
 			}
 
 
