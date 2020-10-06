@@ -416,9 +416,6 @@ std::vector<float> GrabTranformCamera(cv::Mat Poses, Eigen::Vector3d& translatio
 	return tfqt;
 }
 
-
-
-
 int main(int argc, char** argv)
 {
 	std::ofstream outPos;

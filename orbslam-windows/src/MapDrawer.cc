@@ -21,13 +21,13 @@
 #include "MapDrawer.h"
 #include "MapPoint.h"
 #include "KeyFrame.h"
-#include <pangolin/pangolin.h>
+//#include <pangolin/pangolin.h>
 #include <mutex>
 
 namespace ORB_SLAM2
 {
 
-
+    /*
 MapDrawer::MapDrawer(Map* pMap, const string &strSettingPath):mpMap(pMap)
 {
     cv::FileStorage fSettings(strSettingPath, cv::FileStorage::READ);
@@ -260,5 +260,5 @@ void MapDrawer::GetCurrentOpenGLCameraMatrix(pangolin::OpenGlMatrix &M)
     else
         M.SetIdentity();
 }
-
+*/
 } //namespace ORB_SLAM

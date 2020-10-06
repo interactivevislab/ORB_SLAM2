@@ -21,6 +21,7 @@
 #ifndef MAPDRAWER_H
 #define MAPDRAWER_H
 
+/*
 #include"Map.h"
 #include"MapPoint.h"
 #include"KeyFrame.h"
@@ -60,5 +61,5 @@ private:
 };
 
 } //namespace ORB_SLAM
-
+*/
 #endif // MAPDRAWER_H
