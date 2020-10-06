@@ -40,6 +40,7 @@ FrameDrawer::FrameDrawer(Map* pMap, bool bReuseMap):mpMap(pMap)
 
 cv::Mat FrameDrawer::DrawFrame()
 {
+   
     cv::Mat im;
     vector<cv::KeyPoint> vIniKeys; // Initialization: KeyPoints in reference frame
     vector<int> vMatches; // Initialization: correspondeces with reference keypoints
@@ -49,6 +50,7 @@ cv::Mat FrameDrawer::DrawFrame()
 
     //Copy variables within scoped mutex
     {
+        
         unique_lock<mutex> lock(mMutex);
         state=mState;
         if(mState==Tracking::SYSTEM_NOT_READY)

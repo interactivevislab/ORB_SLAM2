@@ -573,4 +573,9 @@ bool System::LoadMap(const string &filename)
     return true;
 }
 
+Map* System::GetMap()
+{
+    return mpMap;
+}
+
 } //namespace ORB_SLAM

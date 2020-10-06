@@ -41,6 +41,11 @@ class Map
 public:
     Map();
 
+    int GetNumMapPoints();
+
+    int GetNumRefPoints();
+
+
     void AddKeyFrame(KeyFrame* pKF);
     void AddMapPoint(MapPoint* pMP);
     void EraseMapPoint(MapPoint* pMP);
