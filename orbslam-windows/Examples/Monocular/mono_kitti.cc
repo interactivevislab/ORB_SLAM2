@@ -534,6 +534,7 @@ int main(int argc, char** argv)
 
 			// Pass the image to the SLAM system
 			Tcw = SLAM.TrackMonocular(im, curNow / 1000.0);
+			std::cout <<"NumPoints" <<SLAM.GetMap()->GetNumMapPoints();
 
 			// This can write each image with its position to a file if you want
 			if (!Tcw.empty())
