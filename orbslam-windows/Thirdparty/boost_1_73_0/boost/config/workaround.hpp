@@ -4,7 +4,11 @@
 // http://www.boost.org/LICENSE_1_0.txt)
 #ifndef BOOST_CONFIG_WORKAROUND_HPP
 #define BOOST_CONFIG_WORKAROUND_HPP
-
+#ifndef __clang_major__
+#define __clang_major___WORKAROUND_GUARD 1
+#else
+#define __clang_major___WORKAROUND_GUARD 0
+#endif
 // Compiler/library version workaround macro
 //
 // Usage:

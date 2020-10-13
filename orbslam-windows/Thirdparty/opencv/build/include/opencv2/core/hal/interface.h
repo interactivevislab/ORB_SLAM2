@@ -1,5 +1,8 @@
 #ifndef OPENCV_CORE_HAL_INTERFACE_H
 #define OPENCV_CORE_HAL_INTERFACE_H
+#define int64 int64_I_dont_care
+#define uint64 uint64_I_dont_care
+
 
 //! @addtogroup core_hal_interface
 //! @{
@@ -186,5 +189,6 @@ typedef signed char schar;
 //! @}
 
 //! @}
-
+#undef int64
+#undef uint64
 #endif

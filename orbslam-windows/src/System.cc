@@ -578,4 +578,9 @@ Map* System::GetMap()
     return mpMap;
 }
 
+FrameDrawer* System::GetFrameDrawer()
+{
+    return mpFrameDrawer;
+}
+
 } //namespace ORB_SLAM

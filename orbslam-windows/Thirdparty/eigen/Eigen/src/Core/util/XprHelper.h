@@ -61,7 +61,7 @@ struct promote_scalar_arg_unsupported;
 
 // Start recursion with NumTraits<ExprScalar>::Literal
 template<typename S,typename T>
-struct promote_scalar_arg<S,T,false> : promote_scalar_arg_unsupported<S,T,typename NumTraits<S>> {};
+struct promote_scalar_arg<S,T,false> : promote_scalar_arg_unsupported<S,T,NumTraits<S>> {};
 
 // We found a match!
 template<typename S,typename T, typename PromotedType>

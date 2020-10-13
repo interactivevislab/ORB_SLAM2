@@ -27,7 +27,6 @@ namespace ORB_SLAM2
 			 void TrackMonocular(const cv::Mat& image, double timestamp);
 			 void ShutdownSlam();
 			 int GetNumPoints();
-			 void GetAllMapPoint(int& outCount, float* pointData, char* fileToWrite = "");
 			ORB_SLAM2::System* SLAM;
 		};
 

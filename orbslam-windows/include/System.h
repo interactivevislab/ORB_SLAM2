@@ -123,6 +123,7 @@ public:
 
     Map* GetMap();
 
+    FrameDrawer* GetFrameDrawer();
 
 private:
     // Save/Load functions
