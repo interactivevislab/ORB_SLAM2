@@ -35,10 +35,13 @@ static bool has_suffix(const std::string &str, const std::string &suffix)
 namespace ORB_SLAM2
 {
 
-System::System(const string &strVocFile, const string &strSettingsFile, const eSensor sensor,
+System::System(const string &strVocFile, const string &strSettingsFile, const eSensor sensor, const string& pathMap,
                const bool bUseViewer, bool is_save_map_):mSensor(sensor), is_save_map(is_save_map_), mbReset(false),
         mbActivateLocalizationMode(false), mbDeactivateLocalizationMode(false)
 {
+    
+    //Set pathToMap
+    this->mapfile = pathMap;
     // Output welcome message
     cout << endl <<
     "ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza." << endl <<
@@ -62,13 +65,13 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
        cerr << "Failed to open settings file at: " << strSettingsFile << endl;
        exit(-1);
     }
-
-    cv::FileNode mapfilen = fsSettings["Map.mapfile"];
     bool bReuseMap = false;
-    if (!mapfilen.empty())
-    {
-        mapfile = (string)mapfilen;
-    }
+    //cv::FileNode mapfilen = fsSettings["Map.mapfile"];
+    //
+    //if (!mapfilen.empty())
+   // {
+     //   mapfile = (string)mapfilen;
+    //}
 
     //Load ORB Vocabulary
     cout << endl << "Loading ORB Vocabulary. This could take a while..." << endl;
@@ -139,6 +142,10 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
 
     mpLoopCloser->SetTracker(mpTracker);
     mpLoopCloser->SetLocalMapper(mpLocalMapper);
+
+
+    
+
 }
 
 cv::Mat System::TrackStereo(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timestamp)
@@ -418,7 +425,6 @@ void System::SaveTrajectoryTUM(const string &filename)
     cout << endl << "trajectory saved!" << endl;
 }
 
-
 void System::SaveKeyFrameTrajectoryTUM(const string &filename)
 {
     cout << endl << "Saving keyframe trajectory to " << filename << " ..." << endl;
@@ -544,6 +550,7 @@ void System::SaveMap(const string &filename)
     cout << " ...done" << std::endl;
     out.close();
 }
+
 bool System::LoadMap(const string &filename)
 {
     unique_lock<mutex>MapPointGlobal(MapPoint::mGlobalMutex);
