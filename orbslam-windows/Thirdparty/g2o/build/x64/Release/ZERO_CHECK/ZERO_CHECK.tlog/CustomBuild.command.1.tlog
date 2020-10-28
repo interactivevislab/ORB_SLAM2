@@ -1,0 +1,10 @@
+^D:\TEST_ORB_SLAM\ORBSLAM-WINDOWS\THIRDPARTY\G2O\BUILD\CMAKEFILES\3C5C8750D28DE6818626418B484F44B5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/test_ORB_SLAM/orbslam-windows/Thirdparty/g2o -BD:/test_ORB_SLAM/orbslam-windows/Thirdparty/g2o/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/test_ORB_SLAM/orbslam-windows/Thirdparty/g2o/build/g2o.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

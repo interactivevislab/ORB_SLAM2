@@ -1,0 +1,83 @@
+﻿  Building Custom Rule D:/test_ORB_SLAM/orbslam-windows/Thirdparty/g2o/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '-O3'
+cl : command line warning D9002: ignoring unknown option '-march=native'
+  types_sba.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(62,1): warning C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_sba.h(41): message : see reference to class template instantiation 'g2o::BaseVertex<3,Eigen::Vector3d>' being compiled
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99): message : while compiling class template member function 'int g2o::BaseVertex<3,Eigen::Vector3d>::stackSize(void) const'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_sba.h(41): message : see reference to class template instantiation 'g2o::BaseVertex<3,Eigen::Vector3d>' being compiled
+  types_six_dof_expmap.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(62,1): warning C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_sba.h(41): message : see reference to class template instantiation 'g2o::BaseVertex<3,Eigen::Vector3d>' being compiled
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(59,1): warning C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(80): message : see reference to class template instantiation 'g2o::BaseBinaryEdge<2,Eigen::Vector2d,g2o::VertexSBAPointXYZ,g2o::VertexSE3Expmap>' being compiled
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(60,1): warning C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(126,67): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(151,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(151,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(300,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(300,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99): message : while compiling class template member function 'int g2o::BaseVertex<6,g2o::SE3Quat>::stackSize(void) const'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(59): message : see reference to class template instantiation 'g2o::BaseVertex<6,g2o::SE3Quat>' being compiled
+  types_seven_dof_expmap.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(62,1): warning C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_sba.h(41): message : see reference to class template instantiation 'g2o::BaseVertex<3,Eigen::Vector3d>' being compiled
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(59,1): warning C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(80): message : see reference to class template instantiation 'g2o::BaseBinaryEdge<2,Eigen::Vector2d,g2o::VertexSBAPointXYZ,g2o::VertexSE3Expmap>' being compiled
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(60,1): warning C4996: 'Eigen::AlignedBit': was declared deprecated
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : see declaration of 'Eigen::AlignedBit'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(126,67): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99): message : while compiling class template member function 'int g2o::BaseVertex<7,g2o::Sim3>::stackSize(void) const'
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\types\types_seven_dof_expmap.h(49): message : see reference to class template instantiation 'g2o::BaseVertex<7,g2o::Sim3>' being compiled
+  hyper_graph_action.cpp
+  hyper_graph.cpp
+  marginal_covariance_cholesky.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\marginal_covariance_cholesky.cpp(160,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  matrix_structure.cpp
+  batch_stats.cpp
+  parameter.cpp
+  cache.cpp
+  optimizable_graph.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\optimizable_graph.cpp(447,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  solver.cpp
+  optimization_algorithm_factory.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\optimization_algorithm_factory.cpp(106,47): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\optimization_algorithm_factory.cpp(107,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  estimate_propagator.cpp
+  factory.cpp
+  sparse_optimizer.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(179,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(383,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(384,51): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(463,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  hyper_dijkstra.cpp
+  parameter_container.cpp
+  optimization_algorithm.cpp
+  optimization_algorithm_with_hessian.cpp
+  Generating Code...
+  Compiling...
+  optimization_algorithm_levenberg.cpp
+  jacobian_workspace.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\jacobian_workspace.cpp(63,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  robust_kernel.cpp
+  robust_kernel_factory.cpp
+  robust_kernel_impl.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(67,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(74,9): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(95,14): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(96,17): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+  timeutil.cpp
+  string_tools.cpp
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\stuff\string_tools.cpp(100,17): error C3861: 'vasprintf': identifier not found
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\g2o\stuff\string_tools.cpp(117,18): error C3861: 'vasprintf': identifier not found
+  property.cpp
+  Generating Code...

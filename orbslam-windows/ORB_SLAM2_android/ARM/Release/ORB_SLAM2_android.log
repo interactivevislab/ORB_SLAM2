@@ -1,0 +1,492 @@
+﻿  ANDROID_HOME=C:\\Microsoft\AndroidSDK\25
+  ANT_HOME=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Apps\apache-ant-1.9.3
+  JAVA_HOME=C:\Program Files\Android\jdk\microsoft_dist_openjdk_1.8.0.25
+  NDK_ROOT=C:\\Microsoft\AndroidNDK64\android-ndk-r16b
+  Converter.cc
+  In file included from ..\src\Converter.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Converter.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Converter.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  Frame.cc
+  In file included from ..\src\Frame.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Frame.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Frame.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  FrameDrawer.cc
+  In file included from ..\src\FrameDrawer.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/FrameDrawer.h:24:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\FrameDrawer.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/FrameDrawer.h:24:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\FrameDrawer.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/FrameDrawer.h:24:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  Initializer.cc
+  In file included from ..\src\Initializer.cc:25:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Optimizer.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Initializer.cc:25:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Optimizer.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Initializer.cc:25:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Optimizer.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  KeyFrame.cc
+  In file included from ..\src\KeyFrame.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\KeyFrame.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\KeyFrame.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  KeyFrameDatabase.cc
+  LocalMapping.cc
+  In file included from ..\src\LocalMapping.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\LocalMapping.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\LocalMapping.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  LoopClosing.cc
+  In file included from ..\src\LoopClosing.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\LoopClosing.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\LoopClosing.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  Map.cc
+  MapDrawer.cc
+  MapPoint.cc
+  Optimizer.cc
+  In file included from ..\src\Optimizer.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Optimizer.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Optimizer.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Optimizer.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Optimizer.cc:21:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Optimizer.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Optimizer.cc:23:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/core/block_solver.h:30:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/solver.h:32:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/sparse_block_matrix.h:229:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  4 warnings generated.
+  ORBextractor.cc
+  ORBmatcher.cc
+  PnPsolver.cc
+  In file included from ..\src\PnPsolver.cc:53:
+D:\test_ORB_SLAM\orbslam-windows\include\PnPsolver.h(137,10): warning : private field 'cws_determinant' is not used [-Wunused-private-field]
+    double cws_determinant;
+           ^
+D:\test_ORB_SLAM\orbslam-windows\include\PnPsolver.h(188,9): warning : private field 'mRansacTh' is not used [-Wunused-private-field]
+    float mRansacTh;
+          ^
+  2 warnings generated.
+  Sim3Solver.cc
+  System.cc
+  In file included from ..\src\System.cc:23:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\System.h:29:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\System.cc:23:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\System.h:29:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\System.cc:23:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\System.h:29:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\System.cc:23:
+D:\test_ORB_SLAM\orbslam-windows\include/System.h(179,18): warning : private field 'mptViewer' is not used [-Wunused-private-field]
+      std::thread* mptViewer;
+                   ^
+  4 warnings generated.
+  Tracking.cc
+  In file included from ..\src\Tracking.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Tracking.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\Tracking.cc:22:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/Tracking.h:31:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LocalMapping.h:26:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include/LoopClosing.h:34:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  UELinker.cpp
+..\src\UELinker.cpp(3,9): warning : #pragma once in main file [-Wpragma-once-outside-header]
+  #pragma once
+          ^
+  In file included from ..\src\UELinker.cpp:6:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\UELinker.h:8:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\UELinker.cpp:6:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\UELinker.h:8:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\src\UELinker.cpp:6:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\UELinker.h:8:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\include\Converter.h:27:
+  In file included from D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38:
+D:\test_ORB_SLAM\orbslam-windows\Thirdparty/g2o/g2o/types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  4 warnings generated.
+  Viewer.cc
+  ORB_SLAM2_android.cpp
+  C:\\Microsoft\AndroidNDK64\android-ndk-r16b\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-ar.exe: creating D:\test_ORB_SLAM\orbslam-windows\build\ARM\Release\libORB_SLAM2_android.a
+  ORB_SLAM2_android.vcxproj -> D:\test_ORB_SLAM\orbslam-windows\build\ARM\Release\libORB_SLAM2_android.a

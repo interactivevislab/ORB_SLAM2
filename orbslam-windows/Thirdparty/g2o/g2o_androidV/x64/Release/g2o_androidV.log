@@ -1,0 +1,217 @@
+﻿  ANDROID_HOME=C:\\Microsoft\AndroidSDK\25
+  ANT_HOME=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Apps\apache-ant-1.9.3
+  JAVA_HOME=C:\Program Files\Android\jdk\microsoft_dist_openjdk_1.8.0.25
+  NDK_ROOT=C:\\Microsoft\AndroidNDK64\android-ndk-r16b
+  batch_stats.cpp
+  cache.cpp
+  estimate_propagator.cpp
+  In file included from ..\g2o\core\estimate_propagator.cpp:27:
+  In file included from ..\g2o\core/estimate_propagator.h:31:
+  In file included from ..\g2o\core/sparse_optimizer.h:33:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  factory.cpp
+  hyper_dijkstra.cpp
+  hyper_graph.cpp
+  hyper_graph_action.cpp
+..\g2o\core\hyper_graph_action.cpp(257,39): warning : expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+        if ( typeName.empty() || typeid(*it->second).name()==typeName){
+                                        ^
+..\g2o\core\hyper_graph_action.cpp(263,39): warning : expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+        if ( typeName.empty() || typeid(**it).name()==typeName)
+                                        ^
+  2 warnings generated.
+  jacobian_workspace.cpp
+  marginal_covariance_cholesky.cpp
+  In file included from ..\g2o\core\marginal_covariance_cholesky.cpp:27:
+  In file included from ..\g2o\core/marginal_covariance_cholesky.h:31:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  matrix_structure.cpp
+  optimizable_graph.cpp
+  In file included from ..\g2o\core\optimizable_graph.cpp:37:
+  In file included from ..\g2o\core/estimate_propagator.h:31:
+  In file included from ..\g2o\core/sparse_optimizer.h:33:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+..\g2o\core\optimizable_graph.cpp(182,18): warning : expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+        if (typeid(**_parameters[i]).name()!=_parameterTypes[i]){
+                   ^
+..\g2o\core\optimizable_graph.cpp(183,100): warning : expression with side effects will be evaluated despite being used as an operand to 'typeid' [-Wpotentially-evaluated-expression]
+          cerr << __PRETTY_FUNCTION__ << ": FATAL, parameter type mismatch - encountered " << typeid(**_parameters[i]).name() << "; should be " << _parameterTypes[i] << endl;
+                                                                                                     ^
+  3 warnings generated.
+  optimization_algorithm.cpp
+  In file included from ..\g2o\core\optimization_algorithm.cpp:27:
+  In file included from ..\g2o\core/optimization_algorithm.h:37:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  optimization_algorithm_dogleg.cpp
+  In file included from ..\g2o\core\optimization_algorithm_dogleg.cpp:27:
+  In file included from ..\g2o\core/optimization_algorithm_dogleg.h:30:
+  In file included from ..\g2o\core/optimization_algorithm_with_hessian.h:30:
+  In file included from ..\g2o\core/optimization_algorithm.h:37:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  optimization_algorithm_factory.cpp
+  optimization_algorithm_gauss_newton.cpp
+  In file included from ..\g2o\core\optimization_algorithm_gauss_newton.cpp:27:
+  In file included from ..\g2o\core/optimization_algorithm_gauss_newton.h:30:
+  In file included from ..\g2o\core/optimization_algorithm_with_hessian.h:30:
+  In file included from ..\g2o\core/optimization_algorithm.h:37:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  optimization_algorithm_levenberg.cpp
+  In file included from ..\g2o\core\optimization_algorithm_levenberg.cpp:30:
+  In file included from ..\g2o\core/optimization_algorithm_levenberg.h:30:
+  In file included from ..\g2o\core/optimization_algorithm_with_hessian.h:30:
+  In file included from ..\g2o\core/optimization_algorithm.h:37:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  optimization_algorithm_with_hessian.cpp
+  In file included from ..\g2o\core\optimization_algorithm_with_hessian.cpp:27:
+  In file included from ..\g2o\core/optimization_algorithm_with_hessian.h:30:
+  In file included from ..\g2o\core/optimization_algorithm.h:37:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  parameter.cpp
+  parameter_container.cpp
+  robust_kernel.cpp
+  robust_kernel_factory.cpp
+  robust_kernel_impl.cpp
+  solver.cpp
+  In file included from ..\g2o\core\solver.cpp:27:
+  In file included from ..\g2o\core/solver.h:32:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  sparse_block_matrix_test.cpp
+  In file included from ..\g2o\core\sparse_block_matrix_test.cpp:27:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  sparse_optimizer.cpp
+  In file included from ..\g2o\core\sparse_optimizer.cpp:27:
+  In file included from ..\g2o\core/sparse_optimizer.h:33:
+  In file included from ..\g2o\core/sparse_block_matrix.h:229:
+..\g2o\core/sparse_block_matrix.hpp(348,43): warning : ISO C++ specifies that qualified reference to 'SparseBlockMatrix' is a constructor name rather than a type in this context, despite preceding 'typename' keyword [-Winjected-class-name]
+                  typename SparseBlockMatrix<MatrixType>::SparseBlockMatrix* s = new SparseBlockMatrix(rowIdx, colIdx, m, n, true);
+                                                          ^
+  1 warning generated.
+  os_specific.c
+  property.cpp
+  string_tools.cpp
+  timeutil.cpp
+  types_sba.cpp
+  In file included from ..\g2o\types\types_sba.cpp:27:
+  In file included from ..\g2o\types/types_sba.h:30:
+..\g2o\types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  1 warning generated.
+  types_seven_dof_expmap.cpp
+  In file included from ..\g2o\types\types_seven_dof_expmap.cpp:27:
+  In file included from ..\g2o\types/types_seven_dof_expmap.h:34:
+..\g2o\types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\g2o\types\types_seven_dof_expmap.cpp:27:
+  In file included from ..\g2o\types/types_seven_dof_expmap.h:35:
+..\g2o\types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\g2o\types\types_seven_dof_expmap.cpp:27:
+  In file included from ..\g2o\types/types_seven_dof_expmap.h:35:
+..\g2o\types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  types_six_dof_expmap.cpp
+  In file included from ..\g2o\types\types_six_dof_expmap.cpp:27:
+  In file included from ..\g2o\types/types_six_dof_expmap.h:37:
+..\g2o\types/../core/base_vertex.h(62,74): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+      typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+                                                                           ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\g2o\types\types_six_dof_expmap.cpp:27:
+  In file included from ..\g2o\types/types_six_dof_expmap.h:38:
+..\g2o\types/../core/base_binary_edge.h(59,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  In file included from ..\g2o\types\types_six_dof_expmap.cpp:27:
+  In file included from ..\g2o\types/types_six_dof_expmap.h:38:
+..\g2o\types/../core/base_binary_edge.h(60,82): warning : 'AlignedBit' is deprecated [-Wdeprecated-declarations]
+        typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+                                                                                   ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Constants.h(162,1):  note: 'AlignedBit' has been explicitly marked deprecated here
+  EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+  ^
+  D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen\Eigen/src/Core/util/Macros.h(594,45):  note: expanded from macro 'EIGEN_DEPRECATED'
+      #define EIGEN_DEPRECATED __attribute__((deprecated))
+                                              ^
+  3 warnings generated.
+  g2o_androidV.cpp
+  C:\\Microsoft\AndroidNDK64\android-ndk-r16b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\bin\x86_64-linux-android-ar.exe: creating D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\build\x64\Release\libg2o_androidV.a
+  g2o_androidV.vcxproj -> D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\build\x64\Release\libg2o_androidV.a

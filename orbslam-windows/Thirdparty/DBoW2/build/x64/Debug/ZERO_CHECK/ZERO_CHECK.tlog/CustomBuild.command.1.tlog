@@ -1,0 +1,10 @@
+^D:\TEST_ORB_SLAM\ORBSLAM-WINDOWS\THIRDPARTY\DBOW2\BUILD\CMAKEFILES\340F599855E3923E228EE444A29809E0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2 -BD:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/test_ORB_SLAM/orbslam-windows/Thirdparty/DBoW2/build/DBoW2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

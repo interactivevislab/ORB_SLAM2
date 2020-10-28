@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{a94fc92a-1112-4610-918a-0b82fc743ab0}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>g2o_androidV</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_5_0</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\core;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\types;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\stuff;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\core;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\types;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\g2o\stuff;D:\test_ORB_SLAM\orbslam-windows\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\g2o\core\batch_stats.cpp" />
+    <ClCompile Include="..\g2o\core\cache.cpp" />
+    <ClCompile Include="..\g2o\core\estimate_propagator.cpp" />
+    <ClCompile Include="..\g2o\core\factory.cpp" />
+    <ClCompile Include="..\g2o\core\hyper_dijkstra.cpp" />
+    <ClCompile Include="..\g2o\core\hyper_graph.cpp" />
+    <ClCompile Include="..\g2o\core\hyper_graph_action.cpp" />
+    <ClCompile Include="..\g2o\core\jacobian_workspace.cpp" />
+    <ClCompile Include="..\g2o\core\marginal_covariance_cholesky.cpp" />
+    <ClCompile Include="..\g2o\core\matrix_structure.cpp" />
+    <ClCompile Include="..\g2o\core\optimizable_graph.cpp" />
+    <ClCompile Include="..\g2o\core\optimization_algorithm.cpp" />
+    <ClCompile Include="..\g2o\core\optimization_algorithm_dogleg.cpp" />
+    <ClCompile Include="..\g2o\core\optimization_algorithm_factory.cpp" />
+    <ClCompile Include="..\g2o\core\optimization_algorithm_gauss_newton.cpp" />
+    <ClCompile Include="..\g2o\core\optimization_algorithm_levenberg.cpp" />
+    <ClCompile Include="..\g2o\core\optimization_algorithm_with_hessian.cpp" />
+    <ClCompile Include="..\g2o\core\parameter.cpp" />
+    <ClCompile Include="..\g2o\core\parameter_container.cpp" />
+    <ClCompile Include="..\g2o\core\robust_kernel.cpp" />
+    <ClCompile Include="..\g2o\core\robust_kernel_factory.cpp" />
+    <ClCompile Include="..\g2o\core\robust_kernel_impl.cpp" />
+    <ClCompile Include="..\g2o\core\solver.cpp" />
+    <ClCompile Include="..\g2o\core\sparse_block_matrix_test.cpp" />
+    <ClCompile Include="..\g2o\core\sparse_optimizer.cpp" />
+    <ClCompile Include="..\g2o\stuff\os_specific.c" />
+    <ClCompile Include="..\g2o\stuff\property.cpp" />
+    <ClCompile Include="..\g2o\stuff\string_tools.cpp" />
+    <ClCompile Include="..\g2o\stuff\timeutil.cpp" />
+    <ClCompile Include="..\g2o\types\types_sba.cpp" />
+    <ClCompile Include="..\g2o\types\types_seven_dof_expmap.cpp" />
+    <ClCompile Include="..\g2o\types\types_six_dof_expmap.cpp" />
+    <ClCompile Include="g2o_androidV.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\g2o\core\base_binary_edge.h" />
+    <ClInclude Include="..\g2o\core\base_binary_edge.hpp" />
+    <ClInclude Include="..\g2o\core\base_edge.h" />
+    <ClInclude Include="..\g2o\core\base_multi_edge.h" />
+    <ClInclude Include="..\g2o\core\base_multi_edge.hpp" />
+    <ClInclude Include="..\g2o\core\base_unary_edge.h" />
+    <ClInclude Include="..\g2o\core\base_unary_edge.hpp" />
+    <ClInclude Include="..\g2o\core\base_vertex.h" />
+    <ClInclude Include="..\g2o\core\base_vertex.hpp" />
+    <ClInclude Include="..\g2o\core\batch_stats.h" />
+    <ClInclude Include="..\g2o\core\block_solver.h" />
+    <ClInclude Include="..\g2o\core\block_solver.hpp" />
+    <ClInclude Include="..\g2o\core\cache.h" />
+    <ClInclude Include="..\g2o\core\creators.h" />
+    <ClInclude Include="..\g2o\core\eigen_types.h" />
+    <ClInclude Include="..\g2o\core\estimate_propagator.h" />
+    <ClInclude Include="..\g2o\core\factory.h" />
+    <ClInclude Include="..\g2o\core\hyper_dijkstra.h" />
+    <ClInclude Include="..\g2o\core\hyper_graph.h" />
+    <ClInclude Include="..\g2o\core\hyper_graph_action.h" />
+    <ClInclude Include="..\g2o\core\jacobian_workspace.h" />
+    <ClInclude Include="..\g2o\core\linear_solver.h" />
+    <ClInclude Include="..\g2o\core\marginal_covariance_cholesky.h" />
+    <ClInclude Include="..\g2o\core\matrix_operations.h" />
+    <ClInclude Include="..\g2o\core\matrix_structure.h" />
+    <ClInclude Include="..\g2o\core\openmp_mutex.h" />
+    <ClInclude Include="..\g2o\core\optimizable_graph.h" />
+    <ClInclude Include="..\g2o\core\optimization_algorithm.h" />
+    <ClInclude Include="..\g2o\core\optimization_algorithm_dogleg.h" />
+    <ClInclude Include="..\g2o\core\optimization_algorithm_factory.h" />
+    <ClInclude Include="..\g2o\core\optimization_algorithm_gauss_newton.h" />
+    <ClInclude Include="..\g2o\core\optimization_algorithm_levenberg.h" />
+    <ClInclude Include="..\g2o\core\optimization_algorithm_property.h" />
+    <ClInclude Include="..\g2o\core\optimization_algorithm_with_hessian.h" />
+    <ClInclude Include="..\g2o\core\parameter.h" />
+    <ClInclude Include="..\g2o\core\parameter_container.h" />
+    <ClInclude Include="..\g2o\core\robust_kernel.h" />
+    <ClInclude Include="..\g2o\core\robust_kernel_factory.h" />
+    <ClInclude Include="..\g2o\core\robust_kernel_impl.h" />
+    <ClInclude Include="..\g2o\core\solver.h" />
+    <ClInclude Include="..\g2o\core\sparse_block_matrix.h" />
+    <ClInclude Include="..\g2o\core\sparse_block_matrix.hpp" />
+    <ClInclude Include="..\g2o\core\sparse_block_matrix_ccs.h" />
+    <ClInclude Include="..\g2o\core\sparse_block_matrix_diagonal.h" />
+    <ClInclude Include="..\g2o\core\sparse_optimizer.h" />
+    <ClInclude Include="..\g2o\solvers\linear_solver_dense.h" />
+    <ClInclude Include="..\g2o\solvers\linear_solver_eigen.h" />
+    <ClInclude Include="..\g2o\stuff\color_macros.h" />
+    <ClInclude Include="..\g2o\stuff\macros.h" />
+    <ClInclude Include="..\g2o\stuff\misc.h" />
+    <ClInclude Include="..\g2o\stuff\os_specific.h" />
+    <ClInclude Include="..\g2o\stuff\property.h" />
+    <ClInclude Include="..\g2o\stuff\string_tools.h" />
+    <ClInclude Include="..\g2o\stuff\timeutil.h" />
+    <ClInclude Include="..\g2o\types\se3quat.h" />
+    <ClInclude Include="..\g2o\types\se3_ops.h" />
+    <ClInclude Include="..\g2o\types\se3_ops.hpp" />
+    <ClInclude Include="..\g2o\types\sim3.h" />
+    <ClInclude Include="..\g2o\types\types_sba.h" />
+    <ClInclude Include="..\g2o\types\types_seven_dof_expmap.h" />
+    <ClInclude Include="..\g2o\types\types_six_dof_expmap.h" />
+    <ClInclude Include="g2o_androidV.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

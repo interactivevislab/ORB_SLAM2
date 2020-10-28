@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ORB_SLAM2_android.cpp" />
+    <ClCompile Include="..\src\Converter.cc" />
+    <ClCompile Include="..\src\Frame.cc" />
+    <ClCompile Include="..\src\FrameDrawer.cc" />
+    <ClCompile Include="..\src\Initializer.cc" />
+    <ClCompile Include="..\src\KeyFrame.cc" />
+    <ClCompile Include="..\src\KeyFrameDatabase.cc" />
+    <ClCompile Include="..\src\LocalMapping.cc" />
+    <ClCompile Include="..\src\LoopClosing.cc" />
+    <ClCompile Include="..\src\Map.cc" />
+    <ClCompile Include="..\src\MapDrawer.cc" />
+    <ClCompile Include="..\src\MapPoint.cc" />
+    <ClCompile Include="..\src\Optimizer.cc" />
+    <ClCompile Include="..\src\ORBextractor.cc" />
+    <ClCompile Include="..\src\ORBmatcher.cc" />
+    <ClCompile Include="..\src\PnPsolver.cc" />
+    <ClCompile Include="..\src\Sim3Solver.cc" />
+    <ClCompile Include="..\src\System.cc" />
+    <ClCompile Include="..\src\Tracking.cc" />
+    <ClCompile Include="..\src\UELinker.cpp" />
+    <ClCompile Include="..\src\Viewer.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ORB_SLAM2_android.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+</Project>

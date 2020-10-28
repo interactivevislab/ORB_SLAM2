@@ -39,7 +39,7 @@
 #elif __APPLE__
 #include <boost/tr1/unordered_map.hpp>
 #else
-#include <tr1/unordered_map>
+#include <unordered_map>
 #endif
 
 namespace g2o {
@@ -226,7 +226,7 @@ namespace g2o {
 		//! rows of the matrix
 		int rows() const { return _rowBlockIndices.size() ? _rowBlockIndices.back() : 0; }
 
-		typedef std::tr1::unordered_map<int, MatrixType*> SparseColumn;
+		typedef std::unordered_map<int, MatrixType*> SparseColumn;
 
 		SparseBlockMatrixHashMap(const std::vector<int>& rowIndices, const std::vector<int>& colIndices) :
 			_rowBlockIndices(rowIndices), _colBlockIndices(colIndices)

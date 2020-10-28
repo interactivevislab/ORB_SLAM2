@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DBoW2_android.cpp" />
+    <ClCompile Include="..\DUtils\Random.cpp" />
+    <ClCompile Include="..\DUtils\Timestamp.cpp" />
+    <ClCompile Include="..\DBoW2\BowVector.cpp" />
+    <ClCompile Include="..\DBoW2\FeatureVector.cpp" />
+    <ClCompile Include="..\DBoW2\FORB.cpp" />
+    <ClCompile Include="..\DBoW2\ScoringObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBoW2_android.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\DUtils\Random.h" />
+    <ClInclude Include="..\DUtils\Timestamp.h" />
+    <ClInclude Include="..\DBoW2\BowVector.h" />
+    <ClInclude Include="..\DBoW2\FClass.h" />
+    <ClInclude Include="..\DBoW2\FeatureVector.h" />
+    <ClInclude Include="..\DBoW2\FORB.h" />
+    <ClInclude Include="..\DBoW2\ScoringObject.h" />
+    <ClInclude Include="..\DBoW2\TemplatedVocabulary.h" />
+  </ItemGroup>
+</Project>
